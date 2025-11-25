@@ -1,0 +1,26 @@
+# Web Framework and Utilities
+fastapi
+uvicorn[standard]
+pydantic
+cachetools
+
+# Core LangChain Libraries
+langchain_core
+langchain_chroma
+langchain_ollama
+langchain # Needed for the high-level memory and chain utilities
+
+# Document Loaders and Processing
+langchain_community 
+langchain_text_splitters
+unstructured # Often required by UnstructuredDocumentLoader
+
+# Specific Utilities
+pdf2docx
+
+# Optional/Scientific (used in one of your imports)
+scikit-learn # For cosine_similarity
+numpy # For numpy arrays
+
+# Frontend/App Framework (if you run the Streamlit file)
+streamlit
